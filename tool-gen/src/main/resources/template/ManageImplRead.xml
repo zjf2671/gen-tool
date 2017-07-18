@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>Service</name>
+	<filePath>ddc${module}/src/main/java/${filePath}/${module}/service/impl/</filePath>
+	<fileName>${className}ServiceImpl.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.service.impl;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import ${packageName}.${module}.service.${className}Service;
+import ${packageName}.${module}.dao.${className}DAO;
+
+@Service
+public class ${className}ServiceImpl implements ${className}Service {
+	Logger logger = LoggerFactory.getLogger(this.getClass());
+	@Autowired
+	private ${className}DAO ${name}DAO;
+	
+}]]>
+	</content>
+</template>

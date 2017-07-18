@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>WriteService</name>
+	<filePath>basics-${module}-api/src/main/java/${filePath}/${module}/api/write/</filePath>
+	<fileName>${className}WriteService.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.api.write;
+
+public interface ${className}WriteService {
+}]]>
+	</content>
+</template>

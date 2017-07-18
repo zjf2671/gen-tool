@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>Service</name>
+	<filePath>ddc-${module}-service/src/main/java/${filePath}/${module}/service/</filePath>
+	<fileName>${className}ServiceImpl.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import ${packageName}.${module}.api.${className}Service;
+import ${packageName}.${module}.service.BaseService;
+import ${packageName}.${module}.business.${name}.${className}Manage;
+
+@Service("${name}Service")
+public class ${className}ServiceImpl extends BaseService implements ${className}Service {
+	@Autowired
+	private ${className}Manage ${name}Manage;
+}]]>
+	</content>
+</template>

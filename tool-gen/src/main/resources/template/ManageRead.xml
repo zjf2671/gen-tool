@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>Service</name>
+	<filePath>ddc${module}/src/main/java/${filePath}/${module}/service/</filePath>
+	<fileName>${className}Service.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.service;
+
+public interface ${className}Service {
+}]]>
+	</content>
+</template>

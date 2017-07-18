@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>condition</name>
+	<filePath>ddc-${module}-service/src/main/java/${filePath}/${module}/condition/</filePath>
+	<fileName>${className}Condition.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.condition;
+
+import ${packageName}.${module}.po.${className}PO;
+
+/**
+ * 
+ * @author ${author}
+ * @date ${today}
+ */
+public class ${className}Condition extends ${className}PO {
+	private static final long serialVersionUID = 1L;
+
+}]]>
+	</content>
+</template>

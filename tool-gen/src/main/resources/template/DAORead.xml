@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>DAO</name>
+	<filePath>ddc${module}/src/main/java/${filePath}/${module}/dao/</filePath>
+	<fileName>${className}DAO.java</fileName>
+	<content><![CDATA[package ${packageName}.${module}.dao;
+
+import ${packageName}.${module}.po.${className}PO;
+import com.daydaycook.user.common.annotation.MyBatisDao;
+
+@MyBatisDao
+public interface ${className}DAO extends BaseDAO<${className}PO>{
+}]]>
+	</content>
+</template>

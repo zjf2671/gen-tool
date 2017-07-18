@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<!-- <rootPath>D:/workspace/ddcuser-manage/</rootPath> -->
+	<rootPath>D:/workspace/genProject/</rootPath>
+	<author>harry.zhang</author>
+	<packageName>com.daydaycook</packageName>
+	<tableSchema>recipe</tableSchema>
+	<module>user</module>
+	<!-- <prefix>sensitive_</prefix> -->
+	<templates>
+	
+		<template>template/model/po.xml</template>
+		<template>template/DAORead.xml</template>
+		<template>template/MapperRead.xml</template>
+		<!-- <template>template/ManageRead.xml</template>
+		<template>template/ManageImplRead.xml</template> -->
+		
+		
+		 <!-- <template>template/model/dto.xml</template> -->
+		<!-- <template>template/model/condition.xml</template> -->
+ 		<!-- <template>template/model/converter.xml</template> -->
+		<!-- <template>template/DAOWrite.xml</template> -->
+		<!-- <template>template/MapperWrite.xml</template> -->
+		<!-- <template>template/ManageWrite.xml</template> -->
+		<!-- <template>template/ManageImplWrite.xml</template> -->
+
+		<!-- <template>template/APIRead.xml</template> -->
+		<!-- <template>template/APIWrite.xml</template> -->
+		<!-- <template>template/ServiceRead.xml</template> -->
+		<!-- <template>template/ServiceWrite.xml</template> -->
+
+		<!-- <template>template/conf/dubbo-provider.xml</template> -->
+	</templates>
+	<tables>
+		 
+		<!-- <table>sys_office</table> -->
+		<!--<table>sys_menu</table> -->
+		<!-- <table>sys_user</table>
+		<table>sys_sc</table>
+		<table>sys_user_role</table>
+		<table>sys_role</table>
+		<table>sys_role_office</table> -->
+		<!-- <table>sys_login_log</table>
+		<table>sys_user_sc</table> -->
+		<table>greetings</table> 
+	</tables>
+</config>
